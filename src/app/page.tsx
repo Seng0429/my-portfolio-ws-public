@@ -17,14 +17,14 @@ export default function Home() {
           <div className={styles.face + ' ' + styles.bottom}>Next.js</div>
           <div className={styles.face + ' ' + styles.left}>Node.js</div>
           <div className={styles.face + ' ' + styles.right}>React.js</div>
-          {/* <div className={styles.face + ' ' + styles.front}>
+          <div className={styles.face + ' ' + styles.front}>
             <Image
               alt="My profile picture"
               src={image}
               width={200}
               height={200}
             />
-          </div> */}
+          </div>
           <div className={styles.face + ' ' + styles.back}>Vue.js</div>
         </div>
       </div>
